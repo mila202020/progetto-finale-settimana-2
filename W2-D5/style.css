@@ -1,0 +1,130 @@
+/* Your styles here */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+p{font-size: smaller;}
+
+.header-top{
+    background-color: #131921;
+}
+.header-top img{
+    width: 10%;
+    margin: 1% 0% 1% 1%;
+}
+.header-bottom{
+    color: white;
+    background-color: #232F3E;
+    padding: 1% 0 1% 0;
+   
+}
+ul{
+     list-style: none;
+}
+li{
+    display: inline-block;
+    padding-left: 1%;
+}
+
+main{
+    padding: 0 1%;
+    background-color: #E9EDEE;
+}
+#orange{
+    color: white;
+    text-align: center;
+    padding: 1% 0%;
+}
+.p{
+    padding: 0.5%;
+    background-color: #F08804;
+    font-size: smaller;
+    
+
+}
+#holiday{
+    color: white;
+    text-align: center;
+    background-image: url(/images/bg-image.png);
+    background-size: cover;
+    height: 100px;
+    place-items: center; /*per centrare div in due linee */
+    display: grid;
+}
+h1{
+    font-weight: bolder;
+    letter-spacing: 1px;
+
+}
+#perfect{
+    background-color: white;
+    margin-top: 10px;
+}
+
+.contenitoreslides{
+    display: flex;
+    padding: 10px;
+
+}
+/**allineare in 4 sulla stessa row!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.slide1, .slide2, .slide3, .slide4 {
+    flex: 1;
+    width: 25%; 
+    box-sizing: border-box; 
+    float: left; 
+    overflow: hidden; 
+    display: flex;
+    justify-content: center; 
+    margin-right: 10px; 
+    margin-left: 10px ;
+
+
+}
+    
+.slide1 img, .slide2 img, .slide3 img, .slide4 img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+.immaginevisore{
+    background-image: url(/images/img_9.png);
+    width: auto;
+    height: 400px;
+    background-size: cover;
+    margin-top: 3%;
+    
+}
+.immaginelenses{  
+    background-image: url(/images/img_10.png);
+
+    width: auto;
+    height: 400px;
+    background-size: cover;
+    margin-top: 3%;
+}
+.testo1 , .testo2{
+    text-align: center;
+    
+}
+
+#backtotop{
+    color:white;
+    background-color: #232F3E;
+    text-align: center;
+
+}
+.testo2{
+    padding-bottom: 1%;
+}
+.scrittaback{
+    padding: 10px;
+}
+footer{
+    background-color: #131921;
+    text-align: center;
+}
+.footerlogo img {
+    width: 10%;
+    padding: 3%;
+}
